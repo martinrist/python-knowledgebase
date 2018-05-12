@@ -1,6 +1,6 @@
 # Setup Instructions
 
-## Python 3 Setup on macOS with Homebrew
+## Python 3 Setup on macOS with Homebrew
 
 To install Python 3 as a Frameworkon macOS 10.13 High Sierra:
 
