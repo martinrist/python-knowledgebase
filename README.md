@@ -1,21 +1,44 @@
 # Setup Instructions
 
-## Python 3 Setup on macOS with Homebrew
+## `pyenv`
 
-To install Python 3 as a Frameworkon macOS 10.13 High Sierra:
+[`pyenv`](https://github.com/pyenv/pyenv) is a Python version manager (like
+`rbenv` for Ruby and `SDKMan!` for Java).  It allows us to set up multiple
+Python versions without interfering with system installations.  Different
+projects can use different Python versions, and a `.python-version` file can be
+added to the project's root directory to control the version automatically.
+
+First install `pyenv` using Homebrew:
 
 ```bash
-sudo mkdir /usr/local/Frameworks
-sudo chown $(whoami) /usr/local/Frameworks
-brew install python
+brew install pyenv
 ```
 
-## Environment Creation and Dependencies
+Add the following commands to `~/.bash_profile` to set up `pyenv` in new shells:
 
-Run the following commands to set up the environment.
+```bash
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
 
-We need to use `venv` instead of `virtualenv` because Matplotlib doesn't work
-with `virtualenv` as described [here](https://matplotlib.org/faq/osx_framework.html).
+Then use `pyenv` to install the required version of Python.  Here we're using
+version 3.11.7:
+
+```bash
+# Use whatever version you want - here we're using 3.11.7
+pyenv install 3.11.7
+```
+
+To configure a working copy to use this version, either run `pyenv local 3.11.7`
+in the working directory, or add a `.python-version` file containing `3.11.7` to
+the project root.
+
+
+## Environment Creation and Dependencies with `venv`:
+
+Run the following commands to set up the virtual environment and install
+dependencies for the project:
 
 ```bash
 python3 -m venv env
