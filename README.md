@@ -1,5 +1,10 @@
 # Setup Instructions
 
+## Links
+
+- [Python Knowledgebase](knowledgebase/README.md)
+
+
 ## `pyenv`
 
 [`pyenv`](https://github.com/pyenv/pyenv) is a Python version manager (like
