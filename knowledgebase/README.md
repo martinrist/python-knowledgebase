@@ -4,7 +4,7 @@
 
 - [Variables & Constants](01-variables-and-constants.ipynb)
 - [Basic Data Types](02-basic-data-types.ipynb)
-- [Collection Types](03-collection-types.ipynb)
+- [Collections](03-collections.ipynb)
 - Flow Control
 - Functions
 - Classes
