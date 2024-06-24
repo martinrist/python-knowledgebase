@@ -1,11 +1,13 @@
-# Setup Instructions
+# Python Knowledgebase
 
 ## Links
 
 - [Python Knowledgebase](knowledgebase/README.md)
 
 
-## `pyenv`
+## Setup Instructions
+
+### `pyenv`
 
 [`pyenv`](https://github.com/pyenv/pyenv) is a Python version manager (like
 `rbenv` for Ruby and `SDKMan!` for Java).  It allows us to set up multiple
@@ -40,7 +42,7 @@ in the working directory, or add a `.python-version` file containing `3.11.7` to
 the project root.
 
 
-## Environment Creation and Dependencies with `venv`:
+### Environment Creation and Dependencies with `venv`:
 
 Run the following commands to set up the virtual environment and install
 dependencies for the project:
@@ -52,7 +54,7 @@ pip install -r requirements.txt
 ```
 
 
-## Testing Matplotlib in IPython
+### Testing Matplotlib in IPython
 
 To test Matplotlib in IPython, open a new IPython shell and run:
 
