@@ -5,7 +5,7 @@
 - [Variables & Constants](01-variables-and-constants.ipynb)
 - [Basic Data Types](02-basic-data-types.ipynb)
 - [Collections](03-collections.ipynb)
-- Flow Control
+- [Flow Control](04-flow-control.ipynb)
 - Functions
 - Classes
 - Type Annotations
