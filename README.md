@@ -54,6 +54,25 @@ pip install -r requirements.txt
 ```
 
 
+### Using `pip-tools` to improve dependency management
+
+After activating a virtual environment, install `pip-tools`:
+
+```bash
+pip install pip-tools
+```
+
+Top-level dependencies are specified in the [`requirements.in`](requirements.in)
+file.  This can be compiled to a `requirements.txt` file using the `pip-compile`
+command.
+
+Then use `pip-sync` to synchronise the virtual environment with the contents of
+[`requirements.txt`](requirements.txt).
+
+See [here](https://goyatg.com/pip-tools/) for more details.
+
+
+
 ### Testing Matplotlib in IPython
 
 To test Matplotlib in IPython, open a new IPython shell and run:
