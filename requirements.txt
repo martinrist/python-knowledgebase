@@ -11,8 +11,6 @@ anyio==4.4.0
     #   httpx
     #   jupyter-server
     #   openai
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -199,7 +197,7 @@ nbformat==5.10.4
     #   nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-notebook==7.2.1
+notebook==7.2.2
     # via jupyter
 notebook-shim==0.2.4
     # via
