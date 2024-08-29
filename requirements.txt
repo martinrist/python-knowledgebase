@@ -11,8 +11,6 @@ anyio==4.4.0
     #   httpx
     #   jupyter-server
     #   openai
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -162,7 +160,7 @@ jupyter-server==2.14.2
     #   notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.2.4
+jupyterlab==4.2.5
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
