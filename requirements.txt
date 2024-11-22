@@ -11,8 +11,6 @@ anyio==4.4.0
     #   httpx
     #   jupyter-server
     #   openai
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -352,7 +350,7 @@ threadpoolctl==3.5.0
     # via scikit-learn
 tinycss2==1.3.0
     # via nbconvert
-tornado==6.4.1
+tornado==6.4.2
     # via
     #   ipykernel
     #   jupyter-client
